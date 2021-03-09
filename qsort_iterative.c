@@ -4,12 +4,13 @@
 #include <time.h>
 
 #include "list.h"
+#include "vector.h"
 
+/*
 typedef struct __vnode {
     node_t *list;
     struct __vnode *next;
 } vnode_t;
-
 
 typedef struct __vector {
     vnode_t *top;
@@ -67,7 +68,7 @@ vector *v_new()
     }
     return v;
 }
-
+*/
 void quicksort_iterative(node_t **list) 
 {
     if (!*list || !(*list)->next) 
