@@ -27,7 +27,7 @@ gcc -Wall list.o vector.o qsort_iterative.c -o qsort
 $ make clean
 rm -f *.o qsort
 ```
-### execution
+## execution
 ```
 $ ./qsort
 ```
